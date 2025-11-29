@@ -1,10 +1,7 @@
 <script setup>
-import Container from '~~/shared/Container/Container.vue'
-import NavBar from '~~/widgets/navbar/ui/NavBar.vue'
+definePageMeta({
+  layout: 'nav',
+})
 </script>
 
-<template>
-  <Container>
-    <NavBar />
-  </Container>
-</template>
+<template></template>

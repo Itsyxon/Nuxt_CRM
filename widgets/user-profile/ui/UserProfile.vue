@@ -1,9 +1,7 @@
 <template>
-  <Container>
-    <Content title="Профиль" subtitle="Ваш профиль">
-      <UserCard />
-    </Content>
-  </Container>
+  <Content title="Профиль" subtitle="Ваш профиль">
+    <UserCard />
+  </Content>
 </template>
 
 <script setup>
