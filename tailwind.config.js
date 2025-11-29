@@ -8,6 +8,8 @@ export default {
     './nuxt.config.{js,ts}',
     './shared/**/*.{js,vue,ts}',
     './widgets/**/*.{js,vue,ts}',
+    './features/**/*.{js,vue,ts}',
+    './entities/**/*.{js,vue,ts}',
   ],
   theme: {
     extend: {},

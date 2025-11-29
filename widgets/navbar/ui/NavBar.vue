@@ -8,13 +8,19 @@
       </div>
       <ul class="flex gap-8">
         <li v-for="icon in icons" :key="icon.id">
-          <NuxtLink :to="icon.link">
+          <NuxtLink :to="icon.link" v-if="icon.link">
             <i
               :class="`pi ${icon.name}`"
               :style="icon.style"
               class="cursor-pointer"
             ></i>
           </NuxtLink>
+          <i
+            :class="`pi ${icon.name}`"
+            :style="icon.style"
+            class="cursor-pointer"
+            v-else
+          ></i>
         </li>
       </ul>
     </nav>
@@ -27,7 +33,6 @@ const icons = [
     id: 1,
     name: 'pi-search',
     style: 'font-size: 1.3rem',
-    link: '/search',
   },
   {
     id: 2,
