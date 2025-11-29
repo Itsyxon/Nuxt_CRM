@@ -1,1 +1,1 @@
-// export { default as Navbar } from './ui/NavBar.vue'
+export { default as Navbar } from './ui/NavBar.vue'
