@@ -1,11 +1,9 @@
 <template>
-  <div>
-    <NuxtPage />
-  </div>
+  <NuxtPage />
 </template>
 
 <script setup>
 useHead({
-  title: 'Мой сайт',
+  title: 'Nuxt CRM',
 })
 </script>
